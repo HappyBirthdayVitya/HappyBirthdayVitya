@@ -1,0 +1,35 @@
+@media screen and (max-width: 1350px) {
+  
+  .main__page {
+    flex-direction: column;
+    margin: 320px 0 0 0 !important;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .main__page h1 {
+    width: 260px !important;
+  }
+
+  .title__wrapper img {
+    width: 300px !important;
+  }
+ 
+  .main__page p {
+    font-size: 70%;
+    width: 300px !important;
+  }
+
+  .card {
+    font-size: 70%;
+    max-width: 300px !important;
+  }
+
+  .description img {
+    width: 80%;
+  }
+
+}
